@@ -1,0 +1,51 @@
+
+.Card__image {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  background-color: white;
+  height: 50%;
+  width: 100%;
+}
+.Card__image img {
+  height: 100%;
+  width: 100%;
+}
+.Card__stats {
+  color:black;
+  padding: 0px 15px;
+  height: 100%;
+  width:99%;
+}
+.Card__name {
+  color: black;
+  display: flex;
+  font-weight: 800;
+  text-transform: capitalize;
+  justify-content: center;
+}
+.Card__types {
+  display: flex;
+  justify-content: center;
+}
+.Card__type {
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  background: cyan;
+  color: #fff;
+}
+.CardContainer {
+  
+  display: flex;
+
+  height: 90%;
+  width:89%;
+  
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 10px;
+  flex-direction: column;
+
+  background-color: rgb(255, 187, 0);
+}
